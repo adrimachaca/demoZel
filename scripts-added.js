@@ -1,6 +1,6 @@
 function demo1() {
   picea.run(
-    { user: "teststore1@save", password: "TTTtest_save_123" },
+    { user: "demo@zelucash", password: "Zelucash_123" },
     onTransactionCompleted
   );
 }
