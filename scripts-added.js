@@ -5,7 +5,7 @@ function demo1() {
   );
 }
 
-function onTransactionCompleted(tr) {
+function onTransactionCompleted(tx) {
   var tituloText = document.getElementById("titulo");
   tituloText.innerHTML = "Gracias por utilizar nuestro servicio de Trade-In";
 
@@ -14,7 +14,7 @@ function onTransactionCompleted(tr) {
     "Guarde el siguiente número de transacción para el procesa de recogida del dispositivo:";
 
   var elementTransaction = document.getElementById("transaction");
-  elementTransaction.innerText = tr.number;
+  elementTransaction.innerText = tx.number;
 
   var startBtn = document.getElementById("boton-start-diagnostics");
   startBtn.style.display = "none";
