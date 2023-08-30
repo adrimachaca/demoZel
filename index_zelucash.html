@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SAVE Trade-In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"/>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .icon-list li::before {
+        display: block;
+        flex-shrink: 0;
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 0.5rem;
+        content: '';
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E")
+          no-repeat center center / 100% auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="col-lg-8 mx-auto p-5 py-md-5">
+      <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+        <a href="https://www.zelucash.com/">
+          <img style="margin-left: -50px;" src="https://tuquejasuma.com/media/cache/2e/e9/2ee9310cc89d57a48b2244b2c690f4bf.jpg" width="220" alt="">
+        </a>
+      </header>
+
+      <main>
+        <h2 style="color: #0E4981;" id="titulo-pregunta">Vende tu celu de forma fácil, rápida y segura.</h2> <br/>
+        <p id="texto-info" class="fs-5 col-md-12">En Save, te proponemos móviles y tablets reacondicionados y certificados Save, con 24 meses de garantía.<br/><br/>Todos los dispositivos que te ofrecemos pasan por un <b>diagnóstico riguroso de más de 100 puntos</b> para asegurarte la mejor calidad al mejor precio y ¡todo Eco!<br/><br/>¡Compramos tu móvil para que tu reacondicionado te salga más barato! Si deseas saber el valor de tu dispositivo haz click en el siguiente botón:
+        </p><br/>
+        <div id="zona-botones" class="mb-5">
+          <button class="btn btn-primary btn-lg px-4" id="boton-start-diagnostics" onclick="demo1()" style="background-color: #2ABFB3; border: 0px;">Conoce el valor de tu dispositivo</button>
+          </a>
+        </div>
+        <p id="descrip-transaction"></p>
+        <p style="font-weight: bold;" id="transaction"></p>
+      </main>
+      <footer class="pt-5 my-5 text-muted border-top">Piceasoft &middot; &copy; 2023</footer>
+    </div>
+
+    <script src="https://online.piceasoft.com/widget/picea.online.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="scripts-added.js"></script>
+  </body>
+</html>
